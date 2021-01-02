@@ -1,9 +1,19 @@
-/*For Headeer styling*/
+
+/******************************************/
+/**************Global Style***************/
+/****************************************/
 body
 {
-	font-size: 16px;
-	font-family: 'Anton', sans-serif;;
+	font-size: 20px;
+	font-family: 'Anton', sans-serif;
+	color: black;
+	background-color: #DADADA;
 }
+
+/******************************************/
+/**************Header Style***************/
+/****************************************/
+
 
 #header-nav
 {
@@ -16,8 +26,8 @@ body
 .navbar-brand h1 
 { 
 	font-family: 'Roboto Slab', serif;
-	color: #1100ff;
 	font-size: 1.5em;
+	color: black;
 	text-transform: uppercase;
 	font-weight: bold;
 	text-shadow: 1px 1px 1px #222;
@@ -44,13 +54,13 @@ body
 
 #nav-list a span
 {
-	color: white;
+	color: black;
 }
 
 
 .navbar-header button.navbar-toggle, .navbar-header button.navbar-toggle:hover , .navbar-header .icon-bar 
 {
-	border: 1px solid #ff8800;
+	border: 2px solid #ff8800;
 	background-color: #fff
 }
 .navbar-header button.navbar-toggle 
@@ -62,6 +72,36 @@ body
 	margin: 0;
 }
 
+/******************************************/
+/**************Main Content***************/
+/****************************************/
+
+#Main_Content h1
+{
+	margin-bottom: 20px;
+	vertical-align: middle;
+}
+
+#Chicken_Tile,#Beef_Tile,#Sushi_Tile
+{
+	height: auto;
+	width: auto;
+	padding-top: 30px;
+	margin-bottom: 15px;
+	position:relative;
+	border: 3px solid #000;
+
+}
+
+#Chicken_Tile span,#Beef_Tile span,#Sushi_Tile span
+{
+	position: absolute;
+	text-align: center;
+	top: 0;
+	right: 0;
+	width: 100%;
+	background-color: rgb(255,136,0);
+}
 /******************************************/
 /**************Media Quary****************/
 /****************************************/
