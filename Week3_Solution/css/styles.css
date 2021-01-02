@@ -80,11 +80,11 @@ body
 {
 	margin-bottom: 20px;
 	vertical-align: middle;
-}c
+}
 
 #Chicken_Tile,#Beef_Tile,#Sushi_Tile
 {
-	height: 1000px;
+	height: auto;
 	width: auto;
 	padding-top: 30px;
 	padding-right: 10px;
